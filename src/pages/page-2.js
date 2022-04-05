@@ -620,7 +620,7 @@ export default function Example() {
 
       {/* Overlapping cards */}
       <section
-        className="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8"
+        className="-mt-32 max-w-7xl mx-auto relative z-10 pb-16 px-4 sm:px-6 lg:px-8"
         aria-labelledby="contact-heading"
       >
         <h2 className="sr-only" id="contact-heading">
@@ -646,6 +646,38 @@ export default function Example() {
           ))}
         </div>
       </section>
+
+      {/* Accommodations */}
+      <div className="bg-white">
+      <div className="max-w-7xl mx-auto pb-16 pt-0 px-4 sm:px-6 lg:px-8">
+        <div className="bg-orange-900 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+          <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+            <div className="lg:self-center">
+              <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+                <span className="block">The Hyatt Regency</span>
+                <span className="block">in downtown Vancouver</span>
+              </h2>
+              <p className="mt-4 text-lg leading-6 text-blue-200">
+              Lyft cardigan man bun viral prism banjo waistcoat lo-fi. Tofu paleo disrupt, kale chips hexagon lo-fi kickstarter shaman scenester unicorn.
+              </p>
+              <a
+                href="#"
+                className="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-orange-900 hover:bg-orange-500"
+              >
+                View Accommodations
+              </a>
+            </div>
+          </div>
+          <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
+            <img
+              className="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
+              src="https://res.cloudinary.com/gravital-digital/image/upload/v1649124670/hyatt-regency_lkjkjh.webp"
+              alt="App screenshot"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
       {/* Testimonial */}
         <div className="bg-white pt-16 lg:py-8">
